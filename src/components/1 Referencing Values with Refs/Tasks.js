@@ -119,26 +119,6 @@ export default function Tasks() {
         </a>
       </h4>
       <hr />
-
-      <h3>
-        <a
-          href="/html/default.asp"
-          title="Ссылка на этот же сайт"
-          style={{ color: 'green' }}
-        >
-          На начало страницы
-        </a>
-      </h3>
-      <h3>
-        <a
-          href="https://liasnik.github.io/React-3-Managing-State/"
-          style={{ color: 'yellow' }}
-          target="__parent"
-          title="Go to React-3-Managing-State"
-        >
-          Управление состоянием
-        </a>
-      </h3>
       <h3>
         <a href="mailto:9426247@gmail.com" title="9426247@gmail.com">
           Email

@@ -3,7 +3,7 @@
 } */
 
 header {
-  margin-top: 41px;
+  margin-top: 42px;
   padding: 20px;
   background-color: #282c34aa;
   min-height: 46px;
@@ -15,7 +15,7 @@ header {
 .toolbar {
   position: fixed;
   width: 100%;
-  margin-top: -44px;
+  margin-top: -46px;
   padding: 10px;
   background-color: #282c34aa;
   min-height: 20px;

@@ -37,6 +37,12 @@ export default function ManipulatingTheDOMwithRefs() {
         <FocusWithRef />
         <CatFriends />
       </div>
+      <hr />
+      <h3 style={{ marginLeft: '40px' }}>
+        <a href="mailto:9426247@gmail.com" title="9426247@gmail.com">
+          Email
+        </a>
+      </h3>
     </div>
   )
 }
