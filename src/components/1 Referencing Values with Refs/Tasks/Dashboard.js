@@ -63,7 +63,7 @@ export default function Dashboard() {
           отдельный идентификатор тайм-аута для каждой кнопки?
         </p>
       )}
-      <div className={styles.code} style={{ width: '100%' }}>
+      <div className={styles.code} style={{ width: '98%' }}>
         <div>
           <button
             onClick={handleShow}

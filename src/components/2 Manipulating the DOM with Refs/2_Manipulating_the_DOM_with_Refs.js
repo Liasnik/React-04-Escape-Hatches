@@ -4,7 +4,7 @@ import FocusWithRef from './FocusWithRef'
 import styles from './ref-DOM.module.css'
 
 export default function ManipulatingTheDOMwithRefs() {
-  const [dark, setDark] = useState(true)
+  const [dark, setDark] = useState(false)
 
   let style
   let styleButton

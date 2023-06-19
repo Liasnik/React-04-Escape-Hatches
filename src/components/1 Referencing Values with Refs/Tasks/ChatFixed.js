@@ -57,7 +57,7 @@ export default function ChatFixed() {
           идентификатор тайм-аута в другом месте?
         </p>
       )}
-      <div className={styles.code} style={{ width: '100%' }}>
+      <div className={styles.code} style={{ width: '98%' }}>
         <div>
           <button
             onClick={handleShow}

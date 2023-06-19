@@ -37,7 +37,7 @@ export default function Chat() {
       </button>
       {isSending && <button onClick={handleUndo}>Cancel</button>}
 
-      <div className={styles.code} style={{ width: '100%' }}>
+      <div className={styles.code} style={{ width: '98%' }}>
         <div>
           <button onClick={handleShow} style={{ color: 'blue' }}>
             {!show ? 'Показать код' : 'Скрыть код'}

@@ -28,6 +28,13 @@
   background-color: rgb(131, 151, 189);
 }
 
+@media (max-width: 600px) {
+  .title {
+    display: block;
+    padding: 25px;
+  }
+}
+
 .title {
   display: flex;
   padding: 25px;

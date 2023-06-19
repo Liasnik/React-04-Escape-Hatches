@@ -38,7 +38,7 @@ export default function DashboardBroken() {
         Sing a lullaby
       </DebouncedButton>
 
-      <div className={styles.code} style={{ width: '100%' }}>
+      <div className={styles.code} style={{ width: '98%' }}>
         <div>
           <button onClick={handleShow} style={{ color: 'blue' }}>
             {!show ? 'Показать код' : 'Скрыть код'}

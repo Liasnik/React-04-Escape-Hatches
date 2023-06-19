@@ -154,7 +154,6 @@ button {
 .stopWatchBlock {
   background-color: rgb(117, 154, 223);
   float: left;
-  /* margin: 60px 0 40px 80px; */
   margin: 60px 20px 80px 10px;
   padding: 10px;
   width: 40%;
@@ -222,7 +221,7 @@ button {
     float: left;
     margin: 0px;
     padding: 10px;
-    width: 100%;
+    width: 95%;
     border-radius: 0;
     font-size: larger;
   }
@@ -232,7 +231,7 @@ button {
     float: left;
     margin: 0px;
     padding: 10px;
-    width: 100%;
+    width: 95%;
     font-size: larger;
   }
 
@@ -244,8 +243,39 @@ button {
     border-radius: 9px;
     width: fit-content;
     color: darkgreen;
-    font-size: larger;
+    font-size: large;
     font-weight: 600;
+  }
+
+  .tableContainer {
+    width: 90%;
+  }
+
+  table {
+    border: 1px solid black;
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: 500;
+    border-collapse: collapse;
+  }
+}
+
+@media (max-width: 300px) {
+  table {
+    font-size: small;
+    font-weight: 300;
+  }
+
+  .code {
+    white-space: pre-wrap;
+    background-color: beige;
+    margin: 40px 5px 20px 5px;
+    padding: 10px;
+    border-radius: 9px;
+    width: fit-content;
+    color: darkgreen;
+    font-size: medium;
+    font-weight: 300;
   }
 }
 
@@ -340,7 +370,14 @@ pre {
 
   .taskFild {
     padding: 10px;
-    width: 98%;
+    width: 90%;
+  }
+
+  .tasks {
+    width: 90%;
+    margin: 70px auto 20px auto;
+    padding: 20px;
+    background-color: lightgray;
   }
 }
 
