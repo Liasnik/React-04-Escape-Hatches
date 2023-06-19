@@ -1,0 +1,110 @@
+.container {
+  font-size: large;
+  color: black;
+  padding: 10px;
+}
+
+.containerDark {
+  font-size: large;
+  color: rgb(225, 225, 235);
+  background-color: rgb(59, 71, 91);
+  padding: 10px;
+}
+
+.buttonLight {
+  margin: 27px 10px 0 auto;
+  height: 40px;
+  font-weight: bold;
+  color: rgb(82, 95, 121);
+  background-color: rgb(230, 230, 173);
+}
+
+.buttonDark {
+  margin: 27px 10px 0 auto;
+  float: right;
+  height: 40px;
+  font-weight: bold;
+  color: beige;
+  background-color: rgb(131, 151, 189);
+}
+
+.title {
+  display: flex;
+  padding: 25px;
+}
+
+.firstBlock {
+  display: flex;
+}
+
+.focusContainer {
+  text-align: center;
+  margin: 40px 0 0 70px;
+  padding: 20px;
+  width: 40%;
+}
+
+.code {
+  white-space: pre-wrap;
+  background-color: beige;
+  margin: 40px auto 20px auto;
+  padding: 10px;
+  border-radius: 9px;
+  width: fit-content;
+  color: darkgreen;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.catsContainer {
+  width: 40%;
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+@media (max-width: 820px) {
+  .firstBlock {
+    display: block;
+  }
+
+  .focusContainer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+  }
+
+  .catsContainer {
+    width: 80%;
+    overflow: hidden;
+    margin: 20px auto;
+  }
+}
+
+.ul {
+  padding-left: 20px;
+}
+
+.div {
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+.nav {
+  text-align: center;
+}
+
+.button {
+  margin: 0.25rem;
+}
+
+.ul,
+.li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+.li {
+  display: inline;
+  padding: 0.5rem;
+}

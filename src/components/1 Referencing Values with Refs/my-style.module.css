@@ -1,0 +1,362 @@
+.title {
+  display: flex;
+  padding: 25px;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+h2 {
+  color: rgb(22, 37, 37);
+  margin: 18px 0;
+}
+
+h3 {
+  margin: 16px 0;
+}
+
+h4 {
+  margin: 14px;
+}
+
+p {
+  margin-top: 15px;
+}
+
+input {
+  font-size: medium;
+  padding: 5px;
+}
+
+.container {
+  font-size: large;
+  background-color: rgb(147, 171, 214);
+  padding: 10px;
+  /* height: 650px; */
+}
+.containerDark {
+  font-size: large;
+  color: rgb(225, 225, 235);
+  background-color: rgb(59, 71, 91);
+  padding: 10px;
+}
+
+.buttonLight {
+  margin-left: 150px;
+  float: right;
+  height: 40px;
+  font-weight: bold;
+  color: rgb(82, 95, 121);
+  background-color: rgb(230, 230, 173);
+}
+
+.buttonDark {
+  margin-left: 150px;
+  float: right;
+  height: 40px;
+  font-weight: bold;
+  color: beige;
+  background-color: rgb(131, 151, 189);
+}
+
+.block {
+  text-align: left;
+  width: 40%;
+  margin: 20px auto 20px auto;
+  padding: 10px;
+}
+
+.list {
+  max-width: 500px;
+  text-align: left;
+  margin: 20px auto 20px auto;
+}
+
+li {
+  margin-bottom: 20px;
+  /* font-size: large; */
+  font-weight: 600;
+}
+
+table {
+  border: 1px solid black;
+  margin-top: 30px;
+  font-size: large;
+  font-weight: 500;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid black;
+  /* border: 2px solid rgb(147, 171, 214); */
+  padding: 10px;
+  background-color: rgba(173, 197, 242, 1);
+}
+
+td {
+  border: 1px solid black;
+  /* border: 2px solid rgb(147, 171, 214); */
+  padding: 10px;
+  margin: 12px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(173, 197, 242);
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(151, 184, 244);
+}
+
+.tableContainer {
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  width: 40%;
+}
+
+.blockflex {
+  display: flex;
+  border-bottom: 2px solid rgb(86, 136, 136);
+  /* justify-content: space-evenly; */
+}
+
+@media only screen and (max-width: 820px) {
+  .blockflex {
+    display: block;
+    font-size: larger;
+  }
+
+  .tableContainer {
+    width: 90%;
+  }
+
+  .block {
+    width: 90%;
+  }
+}
+
+.stopwatch {
+  margin: 40px auto 40px auto;
+  padding: 10px;
+  width: fit-content;
+  background-color: rgb(241, 228, 190);
+  border-radius: 15px;
+}
+
+button {
+  margin: 10px;
+  padding: 8px;
+  min-width: 60px;
+}
+
+.stopWatchBlock {
+  background-color: rgb(117, 154, 223);
+  float: left;
+  /* margin: 60px 0 40px 80px; */
+  margin: 60px 20px 80px 10px;
+  padding: 10px;
+  width: 40%;
+}
+
+.code {
+  white-space: pre-wrap;
+  background-color: beige;
+  margin: 40px auto 20px auto;
+  padding: 10px;
+  border-radius: 9px;
+  width: fit-content;
+  color: darkgreen;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.clickedCounter {
+  float: left;
+  margin: 60px;
+  padding: 10px;
+  width: 40%;
+  background-color: rgb(241, 228, 190);
+  border-radius: 15px;
+}
+
+.counterFild {
+  float: left;
+  background-color: beige;
+  padding: 5px;
+  width: 40px;
+  height: 20px;
+  border: 1px solid;
+  margin-left: 20px;
+}
+/* 
+@media (max-width: 1455px) {
+  .clickedCounter {
+    width: 80%;
+  }
+
+  .stopWatchBlock {
+    width: 80%;
+  }
+} */
+
+@media (max-width: 1035px) {
+  .clickedCounter {
+    margin: 40px auto 0 6px;
+    width: 96%;
+    border-radius: 15px;
+    font-size: larger;
+  }
+
+  .stopWatchBlock {
+    background-color: rgb(117, 154, 223);
+    margin: 40px auto 20px 6px;
+    width: 96%;
+    font-size: larger;
+  }
+}
+
+@media (max-width: 600px) {
+  .clickedCounter {
+    float: left;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0;
+    font-size: larger;
+  }
+
+  .stopWatchBlock {
+    background-color: rgb(117, 154, 223);
+    float: left;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    font-size: larger;
+  }
+
+  .code {
+    white-space: pre-wrap;
+    background-color: beige;
+    margin: 40px 5px 20px 5px;
+    padding: 10px;
+    border-radius: 9px;
+    width: fit-content;
+    color: darkgreen;
+    font-size: larger;
+    font-weight: 600;
+  }
+}
+
+.bestPracticesForRefs {
+  width: 70%;
+  margin: 0 auto 20px auto;
+}
+
+@media (max-width: 820px) {
+  .bestPracticesForRefs {
+    width: 96%;
+    margin: 0 auto 20px auto;
+    font-size: larger;
+  }
+}
+
+.colorRed {
+  color: rgb(200, 84, 84);
+}
+
+.ct {
+  white-space: pre-wrap;
+  /* background-color: beige; */
+  background-color: rgb(174, 194, 230);
+  /* margin: 40px auto 20px auto; */
+  padding: 0 5px;
+  border-radius: 9px;
+  color: darkgreen;
+  font-size: larger;
+  font-weight: 600;
+}
+
+a {
+  color: rgb(96, 96, 255);
+  text-decoration: none;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+}
+
+.tasks {
+  width: 70%;
+  margin: 70px auto 20px auto;
+  padding: 30px;
+  background-color: lightgray;
+}
+
+@media (max-width: 1455px) {
+  .tasks {
+    width: 80%;
+  }
+}
+
+.taskFildContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.taskFild {
+  padding: 20px;
+  width: 40%;
+}
+
+.taskFild h3 {
+  margin-top: 10px;
+  color: rgb(236, 11, 11);
+}
+
+@media (max-width: 822px) {
+  .tasks {
+    width: 90%;
+  }
+
+  .taskFildContainer {
+    display: block;
+  }
+
+  .taskFild {
+    padding: 10px;
+    width: 98%;
+  }
+}
+
+@media (max-width: 600px) {
+  .taskFildContainer {
+    display: block;
+  }
+
+  .taskFild {
+    padding: 10px;
+    width: 98%;
+  }
+}
+
+/* For example: */
+
+/* code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+} */
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */

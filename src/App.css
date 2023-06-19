@@ -1,0 +1,41 @@
+/* .App {
+  text-align: center;
+} */
+
+header {
+  margin-top: 41px;
+  padding: 20px;
+  background-color: #282c34aa;
+  min-height: 46px;
+  display: flex;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.toolbar {
+  position: fixed;
+  width: 100%;
+  margin-top: -44px;
+  padding: 10px;
+  background-color: #282c34aa;
+  min-height: 20px;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.toolbar a {
+  color: #61dafb;
+}
+
+.menu {
+  float: right;
+}
+
+.link {
+  color: #61dafb;
+  font-size: 20px;
+}
+
+.color {
+  color: rgb(143, 200, 235);
+}
