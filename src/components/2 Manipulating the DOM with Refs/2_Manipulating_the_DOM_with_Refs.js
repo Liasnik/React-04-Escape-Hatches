@@ -2,6 +2,8 @@ import { useState } from 'react'
 import CatFriends from './CatFriends'
 import FocusWithRef from './FocusWithRef'
 import styles from './ref-DOM.module.css'
+import { AnotherComponentsNodes } from './Accessing_another_component’s'
+import { SyncWithFlushSync } from './Synchronously_with_flushSync '
 
 export default function ManipulatingTheDOMwithRefs() {
   const [dark, setDark] = useState(false)
@@ -38,6 +40,10 @@ export default function ManipulatingTheDOMwithRefs() {
         <CatFriends />
       </div>
       <hr />
+      <div className="">
+        <AnotherComponentsNodes />
+        <SyncWithFlushSync />
+      </div>
     </div>
   )
 }

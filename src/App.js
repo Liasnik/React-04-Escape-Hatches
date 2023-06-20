@@ -1,25 +1,36 @@
 import './App.css'
 import ReferencingValuesWithRefs from './components/1 Referencing Values with Refs/1_Referencing_Values_with_Refs'
 import ManipulatingTheDOMwithRefs from './components/2 Manipulating the DOM with Refs/2_Manipulating_the_DOM_with_Refs'
-import SynchronizingWithEffects from './components/3_Synchronizing_with_Effects/3_Synchronizing_with_Effects'
+import { SynchronizingWithEffects } from './components/3_Synchronizing_with_Effects/3_Synchronizing_with_Effects'
 import Toolbar from './components/Toolbar'
 import { useRef } from 'react'
 
 function App() {
-  const focus_1 = useRef(null)
-  const focus_2 = useRef(null)
-  const focus_3 = useRef(null)
+  const focusRef1 = useRef(null)
+  const scrollRef2 = useRef(null)
+  const scrollRef3 = useRef(null)
+  const scrollRef4 = useRef(null)
 
   function hendleFocus_1() {
-    focus_1.current.focus({ preventScroll: false })
+    focusRef1.current.focus()
   }
 
-  function hendleFocus_2() {
-    focus_2.current.focus({ preventScroll: false })
+  function hendleScroll_2() {
+    scrollRef2.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+    })
   }
 
-  function hendleFocus_3() {
-    focus_3.current.focus({ preventScroll: false })
+  function hendleScroll_3() {
+    scrollRef3.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+    })
+  }
+
+  function hendleScroll_4() {
+    scrollRef4.current.scrollIntoView()
   }
 
   return (
@@ -32,22 +43,24 @@ function App() {
       </div>
       <header>
         <h1 style={{ margin: 'auto' }}>4. Escape Hatches</h1>
-        <button ref={focus_1} onClick={hendleFocus_2}>
+        <button ref={focusRef1} onClick={hendleScroll_2}>
           Manipulating the DOM
         </button>
-        <button onClick={hendleFocus_3}>Synchronizing with Effects</button>
+        <button onClick={hendleScroll_3}>Synchronizing with Effects</button>
+        <button onClick={hendleScroll_4}>forwardRef( (props, ref)</button>
       </header>
       <body>
         <ReferencingValuesWithRefs />
-        <button ref={focus_2} onClick={hendleFocus_1}>
-          Наверх
-        </button>
-        <ManipulatingTheDOMwithRefs />
+        <button onClick={hendleFocus_1}>Наверх</button>
+        <div ref={scrollRef2}>
+          <button onClick={hendleScroll_3}>Next</button>
+          <ManipulatingTheDOMwithRefs />
+        </div>
       </body>
-      <button ref={focus_3} onClick={hendleFocus_1}>
-        Наверх
-      </button>
-      <SynchronizingWithEffects />
+      <button onClick={hendleFocus_1}>Наверх</button>
+      <div ref={scrollRef3}>
+        <SynchronizingWithEffects ref={scrollRef4} />
+      </div>
     </div>
   )
 }

@@ -95,6 +95,16 @@ const code = `function scrollToId(itemId) {
     }
     return itemsRef.current;
   }
+
+  // Или если без Map то просто:
+  function handleScrollToThirdCat() {
+    thirdCatRef.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'center'
+    });
+  }
+
 `
 function Text() {
   return (

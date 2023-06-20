@@ -121,3 +121,19 @@
   display: inline;
   padding: 0.5rem;
 }
+
+.anotherDOM {
+  width: 80%;
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+.codeText {
+  white-space: pre-wrap;
+  background-color: rgb(174, 194, 230);
+  padding: 0 5px;
+  border-radius: 9px;
+  color: darkgreen;
+  font-size: larger;
+  font-weight: 600;
+}

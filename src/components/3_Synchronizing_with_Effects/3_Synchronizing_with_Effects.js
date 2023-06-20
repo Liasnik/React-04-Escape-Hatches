@@ -1,9 +1,12 @@
-export default function SynchronizingWithEffects() {
+import { forwardRef } from 'react'
+
+export const SynchronizingWithEffects = forwardRef((_, ref) => {
   return (
-    <div style={{ height: '300px', backgroundColor: 'darkgrey' }}>
+    <div ref={ref} style={{ height: '300px', backgroundColor: 'darkgrey' }}>
+      <button style={{ backgroundColor: 'inherit' }}></button>
       <div className="title">
-        <h1>3. Synchronizing with Effects</h1>
+        <h1>3. Synchronizing with Effects (Синхронизация с эффектами)</h1>
       </div>
     </div>
   )
-}
+})
