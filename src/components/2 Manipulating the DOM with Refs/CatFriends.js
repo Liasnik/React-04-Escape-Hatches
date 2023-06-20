@@ -24,6 +24,7 @@ export default function CatFriends() {
 
   return (
     <div className={styles.catsContainer}>
+      <Text />
       <nav>
         <button onClick={() => scrollToId(0)}>Tom</button>
         <button onClick={() => scrollToId(5)}>Jelly&Lorum</button>
@@ -95,3 +96,16 @@ const code = `function scrollToId(itemId) {
     return itemsRef.current;
   }
 `
+function Text() {
+  return (
+    <div className={styles.intro}>
+      <h2>Пример: прокрутка до элемента</h2>
+      <div className={styles.code}>
+        <code>{code2}</code>
+      </div>
+    </div>
+  )
+}
+
+const code2 = `// You can use any browser APIs, for example:
+myRef.current.scrollIntoView();`

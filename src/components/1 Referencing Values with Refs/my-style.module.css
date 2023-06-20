@@ -8,7 +8,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(22, 37, 37);
+  color: rgb(7, 11, 11);
   margin: 18px 0;
 }
 
@@ -37,7 +37,7 @@ input {
 }
 .containerDark {
   font-size: large;
-  color: rgb(225, 225, 235);
+  color: rgb(216, 216, 224);
   background-color: rgb(59, 71, 91);
   padding: 10px;
 }
@@ -91,7 +91,7 @@ th {
   border: 1px solid black;
   /* border: 2px solid rgb(147, 171, 214); */
   padding: 10px;
-  background-color: rgba(173, 197, 242, 1);
+  background-color: rgb(63, 106, 186);
 }
 
 td {
@@ -103,11 +103,11 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: rgb(173, 197, 242);
+  background-color: rgb(63, 106, 186);
 }
 
 tr:nth-child(odd) {
-  background-color: rgb(151, 184, 244);
+  background-color: rgb(63, 106, 186);
 }
 
 .tableContainer {
@@ -176,6 +176,7 @@ button {
   margin: 60px;
   padding: 10px;
   width: 40%;
+  color: rgb(59, 71, 91);
   background-color: rgb(241, 228, 190);
   border-radius: 15px;
 }
@@ -324,7 +325,7 @@ pre {
   width: 70%;
   margin: 70px auto 20px auto;
   padding: 30px;
-  background-color: lightgray;
+  /* background-color: lightgray; */
 }
 
 @media (max-width: 1455px) {

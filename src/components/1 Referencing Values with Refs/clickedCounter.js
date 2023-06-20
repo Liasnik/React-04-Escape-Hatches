@@ -19,7 +19,7 @@ export default function ClickedCounter() {
       <div style={{ float: 'left', marginBottom: '30px' }}>
         <div style={{ display: 'flex', marginBottom: '30px' }}>
           <div style={{ width: '45%' }}>
-            <p style={{ float: 'left' }}>
+            <p style={{ float: 'left', color: 'GrayText' }}>
               Click Counter <i>(useRef)</i>{' '}
             </p>
             <div className={styles.counterFild}>{ref.current}</div>
@@ -36,7 +36,7 @@ export default function ClickedCounter() {
 
         <div style={{ display: 'flex', marginBottom: '30px' }}>
           <div style={{ width: '100%' }}>
-            <p style={{ float: 'left' }}>
+            <p style={{ float: 'left', color: 'GrayText' }}>
               Click Counter <i>(useState)</i>
             </p>
             <div className={styles.counterFild}>{count}</div>
@@ -48,7 +48,7 @@ export default function ClickedCounter() {
             <button onClick={() => setCount(0)}>Clear</button>
           </div>
           <div style={{ width: '130%' }}>
-            <p>
+            <p style={{ float: 'left', color: 'GrayText' }}>
               И только после нажатия кнопки <i>Click useState</i> запустится
               re-render и появится счёт в поле Click Counter <i>(useRef)</i>{' '}
             </p>
