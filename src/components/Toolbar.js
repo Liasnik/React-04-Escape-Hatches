@@ -11,9 +11,13 @@ export default function Toolbar() {
         </a>
       </div>
       <div style={{ float: 'right', marginRight: '50px' }}>
-        {' '}
         <a href="https://github.com/Liasnik" target="_blank" rel="noreferrer">
           My_GitHub
+        </a>
+      </div>
+      <div style={{ float: 'right', marginRight: '50px' }}>
+        <a href="mailto:9426247@gmail.com" title="9426247@gmail.com">
+          Email
         </a>
       </div>
       <div style={{ float: 'right', marginRight: '50px' }}>

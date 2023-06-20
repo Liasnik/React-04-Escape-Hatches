@@ -119,11 +119,6 @@ export default function Tasks() {
         </a>
       </h4>
       <hr />
-      <h3>
-        <a href="mailto:9426247@gmail.com" title="9426247@gmail.com">
-          Email
-        </a>
-      </h3>
     </div>
   )
 }

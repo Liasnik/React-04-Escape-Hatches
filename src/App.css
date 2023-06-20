@@ -39,3 +39,8 @@ header {
 .color {
   color: rgb(143, 200, 235);
 }
+
+.title {
+  display: flex;
+  padding: 25px;
+}

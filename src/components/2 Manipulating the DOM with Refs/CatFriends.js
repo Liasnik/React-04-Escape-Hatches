@@ -26,8 +26,8 @@ export default function CatFriends() {
     <div className={styles.catsContainer}>
       <Text />
       <nav>
-        <button onClick={() => scrollToId(0)}>Tom</button>
-        <button onClick={() => scrollToId(5)}>Jelly&Lorum</button>
+        <button onClick={() => scrollToId(2)}>Tom</button>
+        <button onClick={() => scrollToId(6)}>Jelly&Lorum</button>
         <button onClick={() => scrollToId(9)}>Maru</button>
         <button onClick={() => scrollToId(13)}>Вася</button>
         <button onClick={() => scrollToId(15)}>Мурзик</button>

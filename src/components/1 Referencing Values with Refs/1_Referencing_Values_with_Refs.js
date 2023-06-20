@@ -30,7 +30,7 @@ export default function ReferencingValuesWithRefs() {
 
   return (
     <div className={style}>
-      <div className={styles.title}>
+      <div className="title">
         <h1>
           1. Referencing Values with Refs (Ссылка на значения c помощью ссылок)
           <button className={styleButton} onClick={hendleDark}>
