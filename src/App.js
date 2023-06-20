@@ -16,21 +16,22 @@ function App() {
   }
 
   function hendleScroll_2() {
-    scrollRef2.current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'nearest',
-    })
+    scrollRef2.current.scrollIntoView()
   }
 
   function hendleScroll_3() {
-    scrollRef3.current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'nearest',
-    })
+    scrollRef3.current.scrollIntoView()
   }
 
   function hendleScroll_4() {
     scrollRef4.current.scrollIntoView()
+  }
+
+  function hendleScroll_5() {
+    scrollRef3.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+    })
   }
 
   return (
@@ -41,19 +42,19 @@ function App() {
         </a>
         <Toolbar />
       </div>
-      <header>
+      <div className="header">
         <h1 style={{ margin: 'auto' }}>4. Escape Hatches</h1>
         <button ref={focusRef1} onClick={hendleScroll_2}>
           Manipulating the DOM
         </button>
         <button onClick={hendleScroll_3}>Synchronizing with Effects</button>
-        <button onClick={hendleScroll_4}>forwardRef( (props, ref)</button>
-      </header>
+        <button onClick={hendleScroll_4}>forward Ref((props, ref)</button>
+      </div>
       <body>
         <ReferencingValuesWithRefs />
         <button onClick={hendleFocus_1}>Наверх</button>
         <div ref={scrollRef2}>
-          <button onClick={hendleScroll_3}>Next</button>
+          <button onClick={hendleScroll_5}>Next</button>
           <ManipulatingTheDOMwithRefs />
         </div>
       </body>

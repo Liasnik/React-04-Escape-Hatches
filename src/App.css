@@ -2,7 +2,7 @@
   text-align: center;
 } */
 
-header {
+.header {
   margin-top: 42px;
   padding: 20px;
   background-color: #282c34aa;
@@ -10,6 +10,12 @@ header {
   display: flex;
   font-size: calc(10px + 1vmin);
   color: white;
+}
+
+@media (max-width: 600px) {
+  .header {
+    display: block;
+  }
 }
 
 .toolbar {
