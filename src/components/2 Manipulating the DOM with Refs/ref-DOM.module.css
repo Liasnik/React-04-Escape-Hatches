@@ -111,7 +111,7 @@
 }
 
 .divCats {
-  overflow: hidden;
+  overflow: auto;
   margin: 20px auto;
 }
 
