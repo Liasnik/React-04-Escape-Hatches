@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-04-Escape-Hatches/static/css/main.fd90f1a0.css",
-    "main.js": "/React-04-Escape-Hatches/static/js/main.8bb8706a.js",
+    "main.css": "/React-04-Escape-Hatches/static/css/main.f039d728.css",
+    "main.js": "/React-04-Escape-Hatches/static/js/main.52b6a812.js",
     "index.html": "/React-04-Escape-Hatches/index.html",
-    "main.fd90f1a0.css.map": "/React-04-Escape-Hatches/static/css/main.fd90f1a0.css.map",
-    "main.8bb8706a.js.map": "/React-04-Escape-Hatches/static/js/main.8bb8706a.js.map"
+    "main.f039d728.css.map": "/React-04-Escape-Hatches/static/css/main.f039d728.css.map",
+    "main.52b6a812.js.map": "/React-04-Escape-Hatches/static/js/main.52b6a812.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd90f1a0.css",
-    "static/js/main.8bb8706a.js"
+    "static/css/main.f039d728.css",
+    "static/js/main.52b6a812.js"
   ]
 }
