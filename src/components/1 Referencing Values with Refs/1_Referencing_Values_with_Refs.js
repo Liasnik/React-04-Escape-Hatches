@@ -9,7 +9,7 @@ import Tasks from './Tasks'
 import { useState } from 'react'
 
 export default function ReferencingValuesWithRefs() {
-  const [dark, setDark] = useState(false)
+  const [dark, setDark] = useState(true)
 
   let style
   let styleButton

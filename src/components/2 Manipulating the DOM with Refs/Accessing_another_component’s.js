@@ -9,7 +9,7 @@ export const AnotherComponentsNodes = forwardRef(() => {
   }
 
   return (
-    <div className={styles.anotherDOM}>
+    <div className={styles.anotherComponentDOM}>
       <h2>Доступ к узлам DOM другого компонента</h2>
       <p>
         {' '}

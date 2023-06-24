@@ -50,3 +50,33 @@
   display: flex;
   padding: 25px;
 }
+
+.li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.li:hover {
+  cursor: pointer;
+  color: rgb(219, 216, 216);
+}
+
+input {
+  height: 30px;
+  outline-style: none;
+}
+
+/* .slider {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.slides {
+  display: flex;
+  overflow: hidden;
+  margin: 20px auto;
+} */
+
+.active {
+  transform: scale(1.3);
+}

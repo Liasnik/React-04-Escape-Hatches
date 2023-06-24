@@ -25,7 +25,7 @@ p {
 
 input {
   font-size: medium;
-  padding: 5px;
+  padding: 0 10px;
 }
 
 .container {
@@ -76,6 +76,15 @@ li {
   margin-bottom: 20px;
   /* font-size: large; */
   font-weight: 600;
+}
+
+.li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.li:hover {
+  cursor: pointer;
 }
 
 table {

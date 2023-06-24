@@ -2,7 +2,7 @@ import styles from './ref-DOM.module.css'
 
 export const SyncWithFlushSync = () => {
   return (
-    <div className={styles.anotherDOM}>
+    <div className={styles.flushSync}>
       <h2>
         Состояние обновляется синхронно с помощью{' '}
         <code className={styles.codeText}>flushSync</code>
@@ -23,4 +23,4 @@ export const SyncWithFlushSync = () => {
 const codeflushSync = `flushSync(() => {
     setTodos([ ...todos, newTodo]);
   });
-  listRef.current.lastChild.scrollIntoView();`
+  listRef.current.lastChild. scrollIntoView();`

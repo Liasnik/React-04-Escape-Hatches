@@ -44,11 +44,19 @@ function App() {
       </div>
       <div className="header">
         <h1 style={{ margin: 'auto' }}>4. Escape Hatches</h1>
-        <button ref={focusRef1} onClick={hendleScroll_2}>
-          Manipulating the DOM
-        </button>
-        <button onClick={hendleScroll_3}>Synchronizing with Effects</button>
-        <button onClick={hendleScroll_4}>forward Ref((props, ref)</button>
+        <ul style={{ listStyle: '' }}>
+          <li className="li" onClick={hendleScroll_2}>
+            Manipulating the DOM
+          </li>
+
+          <li className="li" onClick={hendleScroll_3}>
+            Synchronizing with Effects
+          </li>
+          <li className="li" onClick={hendleScroll_4}>
+            forward Ref((props, ref)
+          </li>
+        </ul>
+        <input ref={focusRef1} style={{ display: '' }}></input>
       </div>
       <body>
         <ReferencingValuesWithRefs />

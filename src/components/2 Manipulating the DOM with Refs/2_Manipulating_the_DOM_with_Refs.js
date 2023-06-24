@@ -4,9 +4,12 @@ import FocusWithRef from './FocusWithRef'
 import styles from './ref-DOM.module.css'
 import { AnotherComponentsNodes } from './Accessing_another_component’s'
 import { SyncWithFlushSync } from './Synchronously_with_flushSync '
+import TodoList from './TodoList'
+import TodoListWithFlushSync from './TodoListWithFlushSync'
+import Tasks from './Tasks/_Tasks'
 
 export default function ManipulatingTheDOMwithRefs() {
-  const [dark, setDark] = useState(false)
+  const [dark, setDark] = useState(true)
 
   let style
   let styleButton
@@ -43,6 +46,11 @@ export default function ManipulatingTheDOMwithRefs() {
       <div className="">
         <AnotherComponentsNodes />
         <SyncWithFlushSync />
+        <div className={styles.thirdBlock}>
+          <TodoList />
+          <TodoListWithFlushSync />
+        </div>
+        <Tasks />
       </div>
     </div>
   )

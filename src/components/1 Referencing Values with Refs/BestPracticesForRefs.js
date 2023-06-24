@@ -3,7 +3,7 @@ import styles from './my-style.module.css'
 export default function BestPracticesForRefs() {
   return (
     <div className={styles.bestPracticesForRefs}>
-      <h1>Рекомендации для рефералов</h1>
+      <h2>Рекомендации для рефералов</h2>
       <h3>
         Следование этим принципам сделает ваши компоненты более предсказуемыми:
       </h3>

@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import styles from './ref-DOM.module.css'
+import CatSlider from './CatSlider'
 
 export default function FocusWithRef() {
   const inputRef = useRef(null)
@@ -15,6 +16,9 @@ export default function FocusWithRef() {
       <button onClick={handleClick}>focus to input</button>
       <div className={styles.code}>
         <code>{code}</code>
+      </div>
+      <div style={{ margin: '150px auto' }}>
+        <CatSlider />
       </div>
     </div>
   )
