@@ -8,7 +8,7 @@ import TodoList from './TodoList'
 import TodoListWithFlushSync from './TodoListWithFlushSync'
 import Tasks from './Tasks/_Tasks'
 
-export default function ManipulatingTheDOMwithRefs() {
+export default function ManipulatingTheDOMwithRefs({ onClick }) {
   const [dark, setDark] = useState(true)
 
   let style
@@ -50,7 +50,7 @@ export default function ManipulatingTheDOMwithRefs() {
           <TodoList />
           <TodoListWithFlushSync />
         </div>
-        <Tasks />
+        <Tasks onClick={onClick} />
       </div>
     </div>
   )

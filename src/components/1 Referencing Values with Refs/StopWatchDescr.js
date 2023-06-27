@@ -28,14 +28,14 @@ const code = `export default function Stopwatch() {
       setStartTime(Date.now())
       setNow(Date.now())
   
-      clearInterval(intervalRef.current)
+      clearInterval(intervalRef. current)
       intervalRef.current = setInterval(() => {
         setNow(Date.now())
       }, 10)
     }
   
     function handleStop() {
-      clearInterval(intervalRef.current)
+      clearInterval(intervalRef. current)
     }
 
     let secondsPassed = 0

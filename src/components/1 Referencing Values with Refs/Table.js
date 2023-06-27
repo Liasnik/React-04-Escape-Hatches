@@ -22,7 +22,7 @@ export default function Table() {
           <tr key="1">
             <td>useRef(initialValue) возвращается current: initialValue</td>
             <td>
-              useState(initialValue) возвращает текущее значение переменной
+              useState(initial Value) возвращает текущее значение переменной
               состояния и функцию установки состояния ( [value, setValue])
             </td>
           </tr>

@@ -2,6 +2,7 @@ import './App.css'
 import ReferencingValuesWithRefs from './components/1 Referencing Values with Refs/1_Referencing_Values_with_Refs'
 import ManipulatingTheDOMwithRefs from './components/2 Manipulating the DOM with Refs/2_Manipulating_the_DOM_with_Refs'
 import { SynchronizingWithEffects } from './components/3_Synchronizing_with_Effects/3_Synchronizing_with_Effects'
+import SearchInput from './components/SearchInput'
 import Toolbar from './components/Toolbar'
 import { useRef } from 'react'
 
@@ -56,14 +57,14 @@ function App() {
             forward Ref((props, ref)
           </li>
         </ul>
-        <input ref={focusRef1} style={{ display: '' }}></input>
+        <SearchInput ref={focusRef1} />
       </div>
       <body>
         <ReferencingValuesWithRefs />
         <button onClick={hendleFocus_1}>Наверх</button>
         <div ref={scrollRef2}>
           <button onClick={hendleScroll_5}>Next</button>
-          <ManipulatingTheDOMwithRefs />
+          <ManipulatingTheDOMwithRefs onClick={hendleFocus_1} />
         </div>
       </body>
       <button onClick={hendleFocus_1}>Наверх</button>

@@ -57,7 +57,7 @@ const CatSlider = () => {
 export default CatSlider
 
 const catList = []
-for (let i = 1; i < 16; i++) {
+for (let i = 1; i < 17; i++) {
   catList.push({
     id: i,
     imageUrl: 'https://placekitten.com/250/200?image=' + i,

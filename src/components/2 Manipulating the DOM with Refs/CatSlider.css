@@ -34,7 +34,10 @@
 } */
 
 .slide.next img {
-  transform: scale(1.5); /* Увеличиваем следующего кота */
+  transform: scale(
+    1.5
+  ); /* Увеличиваем следующего кота.
+   Коты сдвинуты поэтому так. Нужно добавить похоже  flushSync*/
 }
 
 /* .next, */
@@ -43,6 +46,7 @@
 }
 
 .previous:hover,
+.active:hover,
 .next:hover {
   opacity: 1;
 }

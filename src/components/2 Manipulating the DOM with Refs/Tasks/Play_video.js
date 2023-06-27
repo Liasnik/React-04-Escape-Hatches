@@ -16,6 +16,8 @@ export default function VideoPlayer() {
     <div style={{ margin: '40px auto' }}>
       <button onClick={handleClick}>{isPlaying ? 'Pause' : 'Play'}</button>
       <video
+        //loop
+        // playsInline
         width="250"
         ref={playRef}
         onPlay={() => setIsPlaying(true)}
@@ -26,15 +28,6 @@ export default function VideoPlayer() {
           type="video/mp4"
         />
       </video>
-      <a
-        href="https://codesandbox.io/s/j42s0w?file=/App.js&utm_medium=sandpack"
-        target="_blank"
-        rel="noreferrer"
-      >
-        {' '}
-        <br />
-        codesandbox
-      </a>
     </div>
   )
 }
